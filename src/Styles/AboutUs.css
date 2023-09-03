@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about_us_image{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: url('/assets/jemaa_el_fna.jpg');
+    background-size: cover; /* Ajuste la taille de l'image pour qu'elle soit entièrement visible */
+    background-repeat: no-repeat;
+     /* Empêche la répétition de l'image */
+    height: 100vh;
+    width: 100% ;
+   
+    
+}
+
+.about_us_infos{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: rgba(252, 241, 224, 0.73);
+    height: 70vh; /* Hauteur souhaitée */
+    width: 80%;
+}
+
+.about_us_title{
+    font-size: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top : 40px;
+    margin-bottom: 15px;
+    font-family: italic;
+    font-weight: bold;
+    font-weight: 600;
+    background: linear-gradient(blue, pink);
+    -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+
+}
+
+.about_us_paragraph{
+    margin: 10px 40px 30px 40px;
+    font-family: italic;
+    font-size: 17px;
+    text-indent: 25px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.contact{
+    margin: 10px 40px 8px 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

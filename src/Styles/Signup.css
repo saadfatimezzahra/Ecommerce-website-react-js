@@ -1,0 +1,65 @@
+.signup-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/background5.jpg');
+    background-size: cover; /* Ajuste la taille de l'image pour qu'elle soit entièrement visible */
+    background-repeat: no-repeat;
+    background-position: center; /* Empêche la répétition de l'image */
+    height: 80vh;
+    width: 100% ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* Autres styles pour le formulaire */
+   
+  }
+  .container{
+    position: relative;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(252, 241, 224, 0.87);
+    height: 58vh; /* Hauteur souhaitée */
+    width: 40%;
+}
+ 
+
+.value{
+   
+    background-color: rgba(202, 128, 5, 0.28);
+    border-radius: 8px;
+    padding: 5px;
+    border-color: rgba(202, 128, 5, 0.02);
+    margin-top: 32px;
+    width: 75%;
+    height: 35px;
+    margin-right: 12px;
+    margin-left: 72px;
+    
+}
+
+.send{
+  background-color: rgba(202, 128, 5, 0.53);
+  border-radius: 8px;
+  padding: 5px;
+  border-color: rgba(40, 28, 11, 0.02);
+  margin-top: 40px;
+  width: 19%;
+  margin-left: 250px;
+  font-weight:600;
+  font-size: 19px;
+  
+
+}
+
+h3{
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 25px;
+}

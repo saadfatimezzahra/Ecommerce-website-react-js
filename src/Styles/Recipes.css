@@ -1,0 +1,65 @@
+
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures that the body takes at least the full viewport height */
+  }
+
+.first-container{
+    
+    
+    margin-top: 15px;
+}
+h3{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    font-family: italic;
+    
+    
+}
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.recipe{
+    
+    height: 480px;
+    width : 400px ;
+    margin-left: 80px;
+}
+
+.recipe_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px ;
+    font-family: italic;
+    font-size: 17px;
+    margin-bottom: 16px;
+}
+.images{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add the gray shadow effect */
+  }
+
+.read_more_about_recipe{
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    width: 150px;
+    padding: 12px ;
+    margin-left: 145px;
+    cursor: pointer;
+    text-decoration: none;
+    
+
+}
+

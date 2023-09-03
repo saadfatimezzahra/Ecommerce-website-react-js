@@ -1,0 +1,16 @@
+.second_section{
+    
+    margin-top: 40px;
+}
+
+.ship_information{
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 40%;
+    height: 65px;
+    margin-right: 20px;
+
+}

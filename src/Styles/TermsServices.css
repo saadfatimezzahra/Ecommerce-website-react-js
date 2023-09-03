@@ -1,0 +1,10 @@
+.overview{
+    font-size: 23px;
+    font-family: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content:left;
+    align-items: left ;
+    margin-top: 40px;
+    margin-left: 75px;
+}

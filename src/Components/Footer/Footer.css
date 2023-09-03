@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    
+    
+    width: 100%;
+    bottom: 0;
+    background-color: #FCF1E0;
+    padding: 60px 0 2px 0;
+    
+   /* Fixe le footer au bas de l'écran */
+  left: 0;
+  bottom: 0;
+    
+}
+.footer-column{
+    width: 25%;
+    padding: 0 15px;
+    margin-left: 50px;
+}
+.footer-column-last{
+    width: 35%;
+    padding: 0 15px;
+}
+
+.email{
+    background-color: rgba(202, 128, 5, 0.15);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgba(202, 128, 5, 0.02);
+    margin-top: 5px;
+    width: 75%;
+    margin-right: 12px;
+}
+
+.submit{
+    background-color: rgba(40, 28, 11, 0.12);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgba(40, 28, 11, 0.02);
+    margin-top: 5px;
+    width: 15%;
+    
+    
+
+}
+.terms, .home{
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+h4{
+    margin-bottom: 7px;
+}
+.terms:hover{
+    text-shadow: 1px 1px 1px #000;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+    margin-top: 80px;
+}
+
+.youtube{
+    color: #cd201f;
+    margin-right: 6px;
+}
+.facebook{
+    color: #3b5998;
+    margin-right: 6px;
+}
+.phone{
+    color: #30a93e;
+    margin-right: 6px;
+}
+.instagram{
+    color: #3f729b;
+    margin-right: 6px;
+}
+.mail{ 
+    color: #c73528;
+    margin-right: 6px;
+}

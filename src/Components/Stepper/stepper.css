@@ -1,0 +1,14 @@
+.return_home{
+    background-color: black;
+    color:white ;
+    width: 170px;
+    padding: 15px ;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.return{
+    display: flex;
+    justify-content: center;
+}
